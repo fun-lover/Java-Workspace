@@ -1,7 +1,12 @@
+
 public class HelloWorld{
-public static void main(String[] args){
-	System.out.println("Hello World!");
-	System.out.println("this is version 2");
-	// v2.0
-}
+
+   public static void main(String[] args){
+	int i=0;
+	while(i<5){
+	   System.out.println(i);
+	   i++;
+	}
+   }
+
 }
